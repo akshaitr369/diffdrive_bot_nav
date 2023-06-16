@@ -15,7 +15,11 @@ Launch :
 2. Clone the Repository
 3. Build the Catkin Workspace
 4. Launch the Simulation
+
    cd ~/catkin_ws/
+	
    catkin_make
+	
    source devel/setup.bash
+	
    roslaunch differential_drive_description gazebo.launch
